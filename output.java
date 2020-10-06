@@ -34,6 +34,10 @@ public class output {
         this.l2 = l2;
     }
 
+    public void setZ(int z) {
+        this.z = z;
+    }
+
     public void outconsole() {
         if ( y[0].equals(masRim[l1]) == true & y[2].equals(masRim[l2]) == true & z != 0 ) {
             while (z != 0) {

@@ -1,6 +1,6 @@
 package com.javalearn.online;
 
-public class Calculator extends input {
+public class Calculator{
 
     public String[] y;
 
@@ -16,7 +16,6 @@ public class Calculator extends input {
     }
 
     public Calculator(String y) {
-        super(y);
         this.y = y.split(" ");
     }
 

@@ -18,6 +18,7 @@ public class Main {
             calculator.setB(input.b);
             calculator.calculate();
             output output = new output(y, input.masArab, input.masRim, input.l1, input.l2);
+            output.setZ(calculator.getZ());
             output.outconsole();
         }
     }
